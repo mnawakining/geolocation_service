@@ -1,16 +1,15 @@
 package com.example.demo.model;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
 @Builder
 @Getter
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Address {
 
-    private final String address;
+    private String address;
 
 }
